@@ -1,0 +1,71 @@
+body{ 
+    color: rgb(0, 60, 255);
+    background: rgb(0, 9, 174);
+    margin: 0px;
+    font-family: "Merriweather", serif;
+    margin-bottom: 100px;
+}
+
+header {
+
+    border-bottom: solid 2px rgb(28, 25, 113);
+    padding: 20px;
+    font-size: 72px;
+    color: rgb(25, 165, 97);
+}
+
+
+.chamada {
+
+    background: rgb(8, 5, 100);
+    padding-bottom: 70px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center ;
+}
+
+.texto-principal {
+
+    margin-right: 15%;
+}
+h1{
+  font-size: 50px;  
+}
+p{
+
+    font-size: 15px;
+}
+
+img {
+ height: 200px;
+
+}
+
+.categoria-filmes {
+   display: flex; 
+   overflow-x: auto;
+   gap: 10px;
+}
+
+.categoria{
+
+    padding-left:20px ;
+    padding-right: 10px; ;
+    margin-top: 50px;
+}
+
+.categoria-filmes img {
+
+    opacity: 0.5;
+}
+
+.categoria-filmes img:hover {
+
+opacity: 1.0;
+border: 1px solid rgb(8, 18, 209);
+}
+
+.categoria h2 {
+
+    color: rgb(6, 17, 118);
+}
